@@ -7,7 +7,8 @@ body{
     justify-content: space-evenly;
     width: 550px;
     height: 330px;
-    margin: 300px;
+    margin-left: 340px;
+    margin-top: 150px;
     background-color: whitesmoke;
     
 }
@@ -20,6 +21,9 @@ input{
     height: 50px;
     margin-left: 120px;
     font-size: 12px;
+}
+.username{
+    margin-top: 25px;
 }
 .btn{
     width: 316px;
@@ -36,4 +40,17 @@ a{
 }
 p{
     text-align: center;
+}
+.modal{
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1000;
+    right: 10px;
+    top: 10px;
+    transition: all 1s linear;
 }
